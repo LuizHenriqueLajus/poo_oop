@@ -1,4 +1,5 @@
-﻿using System;
+﻿using p.o.o.ContentContext.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,6 @@ namespace p.o.o.ContentContext
         public string Tag { get; set; }
         public IList<Module> Modules { get; set; }
         public int DurationInMinutes { get; set; }
+        public EContentLevel Level { get; set; }
     }
 }

@@ -11,8 +11,7 @@ namespace p.o.o
     {
         static void Main(string[] args)
         {
-            var course = new Course();
-          
+            var course = new Course();     
         }
     }
 }
