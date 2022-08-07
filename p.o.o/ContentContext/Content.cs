@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace p.o.o.ContentContext
 {
     public abstract class Content
     {
-        public Content()
+        public Content(string title, string url)
         {
             Id = Guid.NewGuid(); //SPOF - Single Point of Failure
+            Title = title;
+            Url = url;
         }
 
         public Guid Id { get; set; }

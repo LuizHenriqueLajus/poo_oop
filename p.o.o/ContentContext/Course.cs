@@ -1,15 +1,12 @@
 ﻿using p.o.o.ContentContext.Enums;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace p.o.o.ContentContext
 {
     public class Course : Content
     {
-        public Course()
+        public Course(string title, string url)
+            : base(title, url)
         {
             Modules = new List<Module>();
         }

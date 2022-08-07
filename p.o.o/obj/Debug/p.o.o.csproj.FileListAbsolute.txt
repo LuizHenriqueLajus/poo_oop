@@ -1,0 +1,8 @@
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\bin\Debug\p.o.o.exe.config
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\bin\Debug\p.o.o.exe
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\bin\Debug\p.o.o.pdb
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\obj\Debug\p.o.o.csproj.AssemblyReference.cache
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\obj\Debug\p.o.o.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\obj\Debug\p.o.o.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\obj\Debug\p.o.o.exe
+C:\Users\Luiz Henrique Lajus\source\repos\p.o.o\p.o.o\obj\Debug\p.o.o.pdb
