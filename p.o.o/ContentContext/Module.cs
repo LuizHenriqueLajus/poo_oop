@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using p.o.o.SharedContext;
+using System.Collections.Generic;
 
 namespace p.o.o.ContentContext
 {
-    public class Module
+    public class Module : Base
     {
         public Module()
         {

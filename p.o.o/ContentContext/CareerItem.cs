@@ -1,11 +1,14 @@
-﻿namespace p.o.o.ContentContext
+﻿using p.o.o.NotificationContext;
+using p.o.o.SharedContext;
+
+namespace p.o.o.ContentContext
 {
-    public class CareerItem
+    public class CareerItem : Base
     {
         public CareerItem(int order, string title, string description, Course course)
         {
             if (course == null)
-                throw new System.Exception("O Curso não pode ser nulo.");
+                AddNotification(new Notification("Course", "Curso Inválido"));
 
             Order = order;
             Title = title;
