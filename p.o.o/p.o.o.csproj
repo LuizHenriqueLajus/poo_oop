@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContentContext\Article.cs" />
-    <Compile Include="ContentContext\Base.cs" />
+    <Compile Include="SharedContext\Base.cs" />
     <Compile Include="ContentContext\Career.cs" />
     <Compile Include="ContentContext\CareerItem.cs" />
     <Compile Include="ContentContext\Content.cs" />
@@ -56,6 +56,12 @@
     <Compile Include="NotificationContext\Notification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubsctiptionContext\PagarMeSubscription.cs" />
+    <Compile Include="SubsctiptionContext\PayPalSubscription.cs" />
+    <Compile Include="SubsctiptionContext\Plan.cs" />
+    <Compile Include="SubsctiptionContext\Student.cs" />
+    <Compile Include="SubsctiptionContext\Subscription.cs" />
+    <Compile Include="SubsctiptionContext\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
