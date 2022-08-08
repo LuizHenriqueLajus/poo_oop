@@ -1,4 +1,5 @@
 ﻿using p.o.o.ContentContext;
+using p.o.o.SubsctiptionContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,6 +53,10 @@ namespace p.o.o
                         Console.WriteLine($"{notification.Property} - {notification.Message}");
                     }
                 }
+
+                var payPalSubscription = new PayPalSubscription();
+                var student = new Student();
+                student.CreateSubscription(payPalSubscription);
             }
 
             Console.ReadLine();
